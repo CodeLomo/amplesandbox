@@ -10,19 +10,15 @@
 /*Pues el background y el color como su nombre indica*/
 body{
     font-family: 'Roboto', sans-serif; /* El tipo de fuente. Al actualizar el navegador deberia aparecer con esta fuente */
-    background: #131524;
+    background: #21222b;
 }
 
-header{
+.header{
     font-family: 'Roboto', sans-serif;
     width: 100%;
     height: auto;
     position: relative;
     overflow: hidden;
-}
-
-video{
-    width: 100%;
 }
 
 .absolute{
@@ -70,13 +66,15 @@ h1::after{
 
 .LogoImg{
     background-attachment: fixed;
-    width: 100%;
+    width: 70%;
     position: initial;
     cursor: pointer;
-    padding-bottom: 5px;
+    padding-bottom: 50px;
     padding-top: 1px;
-    display: flex;
     flex-direction: column;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 

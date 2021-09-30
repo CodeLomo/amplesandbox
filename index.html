@@ -1,39 +1,28 @@
-<!--https://www.youtube.com/watch?v=jVITFZJEm_k  en minuto -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIMEL | Initial Liquidity Process</title> <!--Titulo de la web, lo que se ve en la pestaña-->
-    <link rel="stylesheet" href="estilos.css"> <!--Linkamos el archivo estilos.css a este codigo-->
+    <title>SIMEL | Initial Liquidity Process</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <!--Nav representa una sección de una pagina que proporciona enlaces ya sea dentro del documento actual o a otros. SOn los menus, tablas de contenido e indices-->
-    <nav class="nav"> <!--Una class sirve para introducir los elementos en un mismo grupo y que puedan ser manipulados de forma conjunta-->
-        
-        <!--Ul crea una lista no ordenada-->
+    <header>
+
+
+    </header>
+    <nav class="nav"> 
         <ul class="list">
             <div class="LogoImg">
                 <img src="assets/logopng.png" alt="">
 
             </div>
-            
-
-            <!--Li declara cada uno de los elementos de la lista. En este caso list button sera un elemento del bloque list.-->
             <li class="list__item">
-                
-                <!--Div de division sirve para crear secciones o agrupar contenidos-->
                 <div class="list__button">
-
-                    <!--Le ponemos una imagen y lo metemos en una lista a este boton-->
-                    <img src="assets/home.svg" class="list__img" alt="">
-                
-                    <!--a crea un enlace a otras paginas de internet, archivos o ubicaciones dentro de la misma pagina o cualquier URL-->
+                    <img src="./assets/home.svg" class="list__img" alt="">
                     <a href="index.html" class="nav__link">Home</a>
                 </div>
-                
             </li>
 
             <li class="list__item">
@@ -44,18 +33,16 @@
             </li>
 
             <li class="list__item list__item--click">
-                <!--A este contenedor list__button le hemos añadido un modificador list__button--click -->
-                <div class="list__button list__button--click"><!--Le añadimos este modificador a los elementos que tengan una lista dentro-->
+                
+                <div class="list__button list__button--click">
                     <img src="assets/id.svg" class="list__img">
                     <a href="#" class="nav__link">KYC</a>
                     <img src="assets/arrow2.svg" class="list__arrow">
                 </div>
 
-                <!--Con Ul estamos creando una lista dentro de una lista. En este caso un menu dentro de un menu-->
                 <ul class="list__show">
                     <li class="list__inside">
 
-                        <!--En este caso le estamos metiendo un modificador a la clase nav link-->
                         <a href="#" class="nav__link nav__link--inside">Id</a>
                     </li>
 
@@ -71,18 +58,17 @@
             </li>
 
             <li class="list__item list__item--click">
-                <!--A este contenedor list__button le hemos añadido un modificador list__button--click -->
-                <div class="list__button list__button--click"><!--Le añadimos este modificador a los elementos que tengan una lista dentro-->
+                
+                <div class="list__button list__button--click">
                     <img src="assets/wallet.svg" class="list__img">
                     <a href="#" class="nav__link">Wallet</a>
                     <img src="assets/arrow2.svg" class="list__arrow">
                 </div>
 
-                <!--Con Ul estamos creando una lista dentro de una lista. En este caso un menu dentro de un menu-->
                 <ul class="list__show">
                     <li class="list__inside">
 
-                        <!--En este caso le estamos metiendo un modificador a la clase nav link-->
+                        
                         <a href="#" class="nav__link nav__link--inside">Payment Method</a>
                     </li>
 
@@ -106,18 +92,6 @@
 
         </ul>
     </nav>
-    <!--<nav class="home"> Una class sirve para introducir los elementos en un mismo grupo y que puedan ser manipulados de forma conjunta-->
-        
-        <!--Ul crea una lista no ordenada
-        <ul class="world">
-            <video onloadedmetadata="this.muted=true" autoplay loop height="1920x521">
-                <source src="assets/production ID 4478322.mp4">
-            </video>
-       </ul>
-    </nav>--> 
-
-
-    <!--Hacemos un llamado al archivo main.js-->
     <script src="main.js"></script>
 </body>
 </html>

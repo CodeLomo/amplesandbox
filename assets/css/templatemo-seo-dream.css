@@ -631,7 +631,7 @@ header
     margin-top: 80px !important;
   }
   .header-area .main-nav .logo {
-    color: #1e1e1e;
+    max-width: 40px;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {

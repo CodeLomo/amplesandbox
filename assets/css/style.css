@@ -1,37 +1,6 @@
-/*
 
-Lava Landing Page
-
-https://templatemo.com/tm-540-lava-landing-page
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. welcome
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -80,7 +49,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #12101d;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -103,7 +72,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 25px;
-  color: #888;
+  color: #fff;
 }
 
 /* 
@@ -113,17 +82,17 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #12101d;
   font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
-  background: #f1556a;
+  background: #1bccff;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f1556a;
+  background: #1bccff;
   color: #fff;
 }
 
@@ -147,7 +116,7 @@ a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #fba70b;
+  background-color: #1bccff;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -159,14 +128,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #f1556a;
+  background-color: #60e3ff;
 }
 
 a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #1bccff;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -178,7 +147,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #f1556a;
+  background-color: #60e3ff;
 }
 
 button.main-button {
@@ -188,7 +157,7 @@ button.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #1bccff;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -200,7 +169,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #f1556a;
+  background-color: #60e3ff;
 }
 
 
@@ -219,12 +188,12 @@ button.main-button:hover {
 
 .center-heading h2 em {
   font-style: normal;
-  color: #f4813f;
+  color: #1bccff;
 }
 
 .center-heading p {
   font-size: 15px;
-  color: #888;
+  color: #fff;
   text-align: center;
 }
 
@@ -236,30 +205,32 @@ header
 */
 
 .background-header {
-  background-color: #fff;
-  height: 80px!important;
+  background-color: #12101d;
+  height: 100px!important;
   position: fixed!important;
   top: 0px;
   left: 0px;
   right: 0px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  box-shadow: 0px 0px 10px #1bccff(0,0,0,0.15)!important;
 }
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #7a7a7a!important;
+
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fba70b!important;
+  color: #1bccff!important;
 }
 
 .background-header .nav li a.active {
-  color: #fba70b!important;
+  color: #1bccff!important;
 }
 
 .header-area {
   position: absolute;
+  padding-top: 20px;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -290,13 +261,12 @@ header
   transition: all 0.3s ease 0s;
 }
 
-
 .header-area .main-nav .nav {
   float: left;
   margin-top: 27px;
   margin-left: 15%;
   margin-right: 0px;
-  background-color: #fff;
+  background-color: #12101d;
   padding: 0px 20px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -332,7 +302,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #fba70b;
+  color: #1bccff;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -353,7 +323,7 @@ header
 .header-area .main-nav .nav li.submenu ul {
   position: absolute;
   width: 200px;
-  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 28px 0 #1bccff(0, 0, 0, 0.06);
   overflow: hidden;
   top: 40px;
   opacity: 0;
@@ -371,7 +341,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a {
   display: block;
-  background: #fff;
+  background: #12101d;
   color: #7a7a7a!important;
   padding-left: 20px;
   height: 40px;
@@ -397,12 +367,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #fba70b;
+  background: #1bccff;
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
-  background: #fff;
-  color: #fba70b!important;
+  background: #262430;
+  color: #1bccff!important;
   padding-left: 25px;
 }
 
@@ -538,7 +508,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fba70b;
+  color: #1bccff;
 }
 
 @media (max-width: 1200px) {
@@ -557,7 +527,7 @@ header
     float: none!important;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #12101d;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -587,12 +557,12 @@ header
     margin-left: 0px;
   }
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #12101d;
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #eee;
+    background: #12101d;
+    border-bottom: 1px solid #12101d;
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
@@ -601,12 +571,12 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
+    background: #12101d !important;
     color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
-    color: #fba70b!important;
+    background: #12101d !important;
+    color: #1bccff!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -631,7 +601,7 @@ header
     height: auto !important;
   }
   .header-area .main-nav .nav li.submenu:after {
-    color: #3B566E;
+    color: #7a7a7a;
     right: 25px;
     font-size: 14px;
     top: 15px;
@@ -660,6 +630,7 @@ welcome
   background-image: url(../images/banner-bg.png);
   background-repeat: no-repeat;
   background-position: right top;
+  background-color: #12101d;
 }
 
 .welcome-area .header-text .left-text {
@@ -675,18 +646,21 @@ welcome
   line-height: 80px;
   letter-spacing: 1px;
   margin-bottom: 30px;
-  color: #191a20;
+  color: #1bccff;
 }
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #fba70b;
+  font-size: 65px;
+  background: -webkit-linear-gradient(#1bccff, #60e3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .welcome-area .header-text p {
   font-weight: 300;
   font-size: 17px;
-  color: #7a7a7a;
+  color: #fff;
   line-height: 30px;
   letter-spacing: 0.25px;
   margin-bottom: 40px;
@@ -761,7 +735,9 @@ about
   border-radius: 5px;
   padding: 60px 30px;
   text-align: center;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  background-color: #262430;
+  opacity: 1;
+  box-shadow: 0px 0px 10px #60e3ff(0,0,0,0.1);
 }
 
 .features-item h2 {
@@ -784,7 +760,7 @@ about
 .features-item h4 {
   margin-top: 0px;
   font-size: 22px;
-  color: #1e1e1e;
+  color: #fff;
   margin-bottom: 25px;
 }
 
@@ -873,8 +849,8 @@ testimonials
 }
 
 #testimonials .item .testimonial-content {
-  background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: #1bccff;
+  background: linear-gradient(145deg, rgba(96,227,255,1) 0%, rgba(0,132,193,1) 100%);
   margin-left: 60px;
   padding: 40px 30px;
   text-align: center;
@@ -927,8 +903,8 @@ testimonials
   line-height: 80px;
   text-align: center;
   display: inline-block;
-  background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: #1bccff;
+  background: linear-gradient(145deg, rgba(96,227,255,1) 0%, rgba(0,132,193,1) 100%);
   position: absolute;
 }
 
@@ -944,8 +920,8 @@ testimonials
   line-height: 80px;
   text-align: center;
   display: inline-block;
-  background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: #1bccff;
+  background: linear-gradient(145deg, rgba(96,227,255,1) 0%, rgba(0,132,193,1) 100%);
   position: absolute;
 }
 
